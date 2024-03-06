@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules/
+dist/
+coverage/
+npm-debug.log
+
+# Compiled code
+*.log
+*.tmp
+*.class
+*.pyc
+*.exe
+
+# IDE or editor files
+.idea/
+.vscode/
