@@ -29,7 +29,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="flex-1 "
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
@@ -37,11 +37,11 @@ const About = () => {
             </h3>
             <p className="mb-6">
               I'm a passionate person with vast background experience In Next.js
-              with a bit of Css combining it with Html as well as Digital
-              marketing for ecommerce and local businesses. looking to develop
-              myself into a rewarding Career in web development.
+              with Css combining it with Html as well as Digital marketing for
+              ecommerce and local businesses. looking to develop myself into a
+              rewarding Career in web development.
             </p>
-            <div className="flex">
+            <div className="flex float: right; width:50%">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={20} end={2} duration={5} /> : null}
