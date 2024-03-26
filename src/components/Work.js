@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/Img1.1.png";
+import Img2 from "../assets/img2.1.png";
+import Img3 from "../assets/img3.1.png";
 
 const Work = () => {
   return (
@@ -24,8 +24,7 @@ const Work = () => {
               <p className="max-w-sm mb-16">
                 {" "}
                 I'm a passionate person with vast background experience In
-                Next.js with a bit of Css combining it with Html as well as
-                Digital
+                Next.js with some analytics Skills.
               </p>
               <button className="btn btn-sm ">View all projects</button>
             </div>
@@ -37,10 +36,17 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient top-full flex align-text-top">
+                  Employee Safety Test
+                </span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">project Title</span>
+
+              <div className="absolute  left-12 group-hover:bottom-8 transition-all duration-700 z-50">
+                <span className=" text-white">
+                  Cleaned the data after extracting it then with some functions
+                  which i created i managed to make a decision based on the
+                  data.
+                </span>
               </div>
             </div>
           </motion.div>
@@ -59,10 +65,15 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Diet Food App</span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">project Title</span>
+
+              <div className="absolute -bottom-full left-12 group-hover:bottom-2 transition-all duration-700 z-50">
+                <span className=" text-white">
+                  Using my UX research skills, adept in data analysis. Created
+                  wireframes for a dieting app featuring meal tracking and
+                  motivational quotes. Implemented user behavior tracking.
+                </span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -73,10 +84,14 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Failed Banks</span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">project Title</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-2 transition-all duration-700 z-50">
+                <span className=" text-white">
+                  With the data i extracted i have managed to use Power Bi to
+                  calculate the banks in each state that has failed then i
+                  reported back to my Manager
+                </span>
               </div>
             </div>
           </motion.div>

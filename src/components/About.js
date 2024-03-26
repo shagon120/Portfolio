@@ -29,17 +29,20 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 "
+            className="flex-1 ml-4 "
           >
             <h2 className="h2 text-accent">About me.</h2>
-            <h3 className="h3 mb-4">
-              I'm a Front-end Developer With 2 Years of experience.
+            <h3 className="h3 mb-4 ">
+              I'm a Front-end Developer With 2 Years of experience while being
+              Data Analyst.
             </h3>
-            <p className="mb-6">
-              I'm a passionate person with vast background experience In Next.js
-              with Css combining it with Html as well as Digital marketing for
-              ecommerce and local businesses. looking to develop myself into a
-              rewarding Career in web development.
+            <p className="mb-6 ">
+              Suhayb is a self-motivated, intuitive and diligent individual
+              seeking to forge a rewarding career in the Computing industry. He
+              has deep love for analytics and web design .His hunger for
+              knowledge keeps him on the cutting edge, transforming data into
+              actionable magic that makes a real impact. by bringing designs
+              into life.
             </p>
             <div className="flex float: right; width:50%">
               <div>

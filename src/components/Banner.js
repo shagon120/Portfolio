@@ -59,8 +59,9 @@ const Banner = () => {
               viewport={{ once: false, amoun: 0.7 }}
               className=" mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae
+              I love bringing designs to life especially when its something im
+              passionate about. if you love what you see on my Portfolio hire me
+              please 😊
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}

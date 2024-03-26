@@ -6,22 +6,26 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet const sad.lorem ipsum orem ipsum",
+    description:
+      "Conducting research to understand user needs, creating low-fidelity wireframes and interactive prototypes to visualize and test design concepts.",
     link: "Learn more",
   },
   {
     name: "Digital Marketing",
-    description: "Lorem ipsum dolor sit amet const sad.lorem ipsum orem ipsum",
+    description:
+      " Planning, creating, and executing online advertising campaigns across various digital channels.",
     link: "Learn more",
   },
   {
-    name: "Development",
-    description: "Lorem ipsum dolor sit amet const sad.lorem ipsum orem ipsum",
+    name: "Project Manager",
+    description:
+      " Develop a comprehensive project plan outlining tasks, milestones.",
     link: "Learn more",
   },
   {
-    name: "Content Writing",
-    description: "Lorem ipsum dolor sit amet const sad.lorem ipsum orem ipsum",
+    name: "Data Analytics",
+    description:
+      "understanding and passion for leveraging data to drive informed decisions and achieve tangible results.",
     link: "Learn more",
   },
 ];
@@ -41,7 +45,8 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              I take pride in what i do and learn and im sure i can be someone
+              that offers various services with quality results.
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>

@@ -7,6 +7,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import ParticlesBg from "particles-bg";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Services />
       <Work />
       <Contact />
+      <ParticlesBg color="#ff0000" num={200} type="circle" bg={true} />
     </div>
   );
 };
