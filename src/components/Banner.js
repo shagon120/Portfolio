@@ -45,6 +45,8 @@ const Banner = () => {
                   2000,
                   "Scrum Master",
                   2000,
+                  "Data Analyst",
+                  2000,
                 ]}
                 speed={35}
                 className="text-accent"
