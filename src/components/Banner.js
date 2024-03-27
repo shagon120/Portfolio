@@ -61,9 +61,13 @@ const Banner = () => {
               viewport={{ once: false, amoun: 0.7 }}
               className=" mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I love bringing designs to life especially when its something im
-              passionate about. if you love what you see on my Portfolio hire me
-              please 😊
+              Designing things that deeply matter to me is more than just being
+              creative; it's a careful process where every line, color, and
+              piece has a purpose. As someone who analyzes things, I enjoy
+              breaking down my ideas, polishing every aspect to ensure they not
+              only look good but also say something meaningful. Each detail I
+              add is thoughtfully chosen to make sure it not only catches the
+              eye but also speaks volumes about what I believe in.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
